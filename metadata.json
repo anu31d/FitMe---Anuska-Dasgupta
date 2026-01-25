@@ -1,0 +1,8 @@
+{
+  "name": "FitAI - Your Luxury Fitness Partner",
+  "description": "A high-end, AI-powered fitness and motivation platform featuring personalized gym/home workouts, progress tracking, and an empathetic AI coach.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
