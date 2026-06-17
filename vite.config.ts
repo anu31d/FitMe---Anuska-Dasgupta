@@ -6,7 +6,10 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/FitMe---Anuska-Dasgupta/',
+    base:
+      mode === 'production'
+        ? '/FitMe---Anuska-Dasgupta/'
+        : '/',
 
     server: {
       port: 3000,
